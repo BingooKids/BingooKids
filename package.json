@@ -1,0 +1,36 @@
+{
+  "name": "bingoo-kids-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp vendors",
+    "start": "gulp default",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BingooKids/bingookids-landing.git"
+  },
+  "author": "BingooKids",
+  "license": "private",
+  "homepage": "https://github.com/BingooKids/bingookids-landing",
+  "devDependencies": {
+    "bootstrap": "^4.6.0",
+    "browser-sync": "^2.26.14",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-ejs": "^4.1.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "dependencies": {}
+}
