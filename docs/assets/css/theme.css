@@ -10301,3 +10301,8 @@ body {
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
   background-color: #F7B500;
 }
+
+.p {
+  color: #FFF;
+  padding: 2rem;
+}
