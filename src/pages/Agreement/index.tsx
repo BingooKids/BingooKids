@@ -27,7 +27,6 @@ export function AgreementPage() {
                 2. 购买会员（适用于支持会员的APP） <br />
                 <br />
                 您可以通过苹果App
-                <br />
                 Store的内购功能一次性购买永久会员，享受更多的功能和服务。
                 <br />
                 您购买会员时，应当遵守苹果App
