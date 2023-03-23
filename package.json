@@ -25,6 +25,7 @@
     },
     "scripts": {
         "start": "PORT=4001 react-app-rewired start",
+        "prebuild": "rm -rf doc",
         "build": "react-app-rewired build",
         "postbuild": "mv build doc",
         "test": "react-app-rewired test",
