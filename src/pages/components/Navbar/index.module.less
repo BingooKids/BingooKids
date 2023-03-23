@@ -1,0 +1,40 @@
+.navbar {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 3%), 0 1px 6px -1px rgb(0 0 0 / 2%),
+        0 2px 4px 0 rgb(0 0 0 / 2%);
+    padding-inline: 12px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    .menus {
+        height: 60px;
+        :global {
+            .ant-anchor-ink {
+                display: none !important;
+            }
+            .ant-anchor-wrapper {
+                margin-block-start: 0;
+            }
+            .ant-anchor {
+                height: 100%;
+            }
+            .ant-anchor::before {
+                display: none;
+                border-inline-start: none;
+            }
+            .ant-anchor-link-title {
+                font-size: 14px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                padding: 6px;
+            }
+        }
+        &::before {
+            display: none;
+        }
+    }
+}
