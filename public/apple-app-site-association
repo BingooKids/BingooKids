@@ -1,0 +1,13 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "6446598545.com.bingookids.bingookidsPoem",
+                "paths": [
+                    "/app/*"
+                ]
+            }
+        ]
+    }
+}
