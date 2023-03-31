@@ -6,13 +6,12 @@ import { Footer } from '../components/Footer';
 import { Hero } from '../components/Hero';
 import { NavBar } from '../components/Navbar';
 import styles from './index.module.less';
-export function HomePage() {
+export function JungleSoundsPage() {
     useTitle(`${ENV_CONFIG.APP_NAME} | ${ENV_CONFIG.SLOGAN}`);
     return (
         <div className={styles['home']}>
             <NavBar />
-            <Hero />
-            {/* <Features
+            <Features
                 title="Jungle Sounds"
                 image="jungle-sound.jpg"
                 description="Meet 48 species of jungle animals, listen to their calls and understand their characteristics. Get your own Jungle Explorer badge by completing the jungle game challenge. Let's start your jungle journey together!"
@@ -22,7 +21,6 @@ export function HomePage() {
                 image="jungle-abc.png"
                 description="A simple and cute alphabet learning app, it contains pure American and British pronunciations. Tap on the blocks to read the letters aloud, and then click to play animal words. It's as simple as that, very suitable for your child."
             ></Features>
-            <Comments /> */}
             <Footer></Footer>
         </div>
     );

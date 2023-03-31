@@ -8,17 +8,17 @@ export function NavBar() {
     const items: AnchorLinkItemProps[] = [
         {
             key: 'home',
-            href: '#hero',
+            href: '#/',
             title: 'About',
         },
         {
             key: 'features',
-            href: '#features',
-            title: 'Apps',
+            href: '#/jungle-series',
+            title: 'Jungle Series',
         },
         {
             key: 'panda-poem',
-            href: '#panda-poem',
+            href: '#/panda-poem',
             title: '熊猫诗词',
         },
     ];

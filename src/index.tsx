@@ -2,7 +2,11 @@ import React, { useContext, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.less';
 import zhCN from 'antd/locale/zh_CN';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {
+    createBrowserRouter,
+    createHashRouter,
+    RouterProvider,
+} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import { ConfigProvider, theme } from 'antd';
 import { ThemeConfig } from 'antd/es/config-provider/context';
@@ -27,7 +31,7 @@ function Index() {
             fontFamily: 'Comfortaa',
         },
     };
-    const appRouters = createBrowserRouter(routers);
+    const appRouters = createHashRouter(routers);
     return (
         <React.StrictMode>
             <ConfigProvider theme={themeConfig} locale={zhCN}>
