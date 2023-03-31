@@ -7,7 +7,7 @@ export function Footer() {
     const span = {};
     return (
         <div className={styles['footer']}>
-            <Space direction="horizontal" align="center">
+            <Space direction="vertical" align="start">
                 <img src="bingoo-grey.png" />
                 <Typography.Text type="secondary">
                     <small>&copy;2021-2023 BingooKids</small>
