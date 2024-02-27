@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="./images/logo32.png"
+            sizes="32x32"
+        />
+        <title>BingooKids</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#FF7900',
+                        },
+                    },
+                },
+            };
+        </script>
+    </head>
+    <body>
+        <div class="bg-white">
+            <header class="absolute inset-x-0 top-0 z-50">
+                <nav
+                    class="flex items-center justify-between p-6 lg:px-8"
+                    aria-label="Global"
+                >
+                    <div class="flex lg:flex-1">
+                        <a href="#" class="-m-1.5 p-1.5">
+                            <img
+                                class="h-8 w-auto"
+                                src="./images/logo.svg"
+                                alt=""
+                            />
+                        </a>
+                    </div>
+                    <div class="flex gap-x-12">
+                        <a
+                            href="#new-release"
+                            class="text-sm font-semibold leading-6 text-gray-900"
+                            >Apps</a
+                        >
+                        <a
+                            href="privacy.html"
+                            target="_blank"
+                            class="text-sm font-semibold leading-6 text-gray-900"
+                            >Privacy</a
+                        >
+                        <a
+                            href="terms-of-use.html"
+                            target="_blank"
+                            class="text-sm font-semibold leading-6 text-gray-900"
+                            >Terms of Use
+                        </a>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="relative isolate px-6 pt-14 lg:px-8">
+                <div
+                    class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                    aria-hidden="true"
+                >
+                    <div
+                        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#2B79FD] to-[#A955E0] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                        style="
+                            clip-path: polygon(
+                                74.1% 44.1%,
+                                100% 61.6%,
+                                97.5% 26.9%,
+                                85.5% 0.1%,
+                                80.7% 2%,
+                                72.5% 32.5%,
+                                60.2% 62.4%,
+                                52.4% 68.1%,
+                                47.5% 58.3%,
+                                45.2% 34.5%,
+                                27.5% 76.7%,
+                                0.1% 64.9%,
+                                17.9% 100%,
+                                27.6% 76.8%,
+                                76.1% 97.7%,
+                                74.1% 44.1%
+                            );
+                        "
+                    ></div>
+                </div>
+                <div class="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
+                    <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+                        <div
+                            class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+                        >
+                            Announcing our next amazing app.
+                            <a
+                                href="#new-release"
+                                class="font-semibold text-indigo-600"
+                                ><span
+                                    class="absolute inset-0"
+                                    aria-hidden="true"
+                                ></span
+                                >Read more
+                                <span aria-hidden="true">&rarr;</span></a
+                            >
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h1
+                            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+                        >
+                            Where imagination takes flight, and learning comes
+                            alive.
+                        </h1>
+                        <p class="mt-6 text-lg leading-8 text-gray-600">
+                            Empowering kids to explore, discover, and grow with
+                            engaging apps.
+                        </p>
+                        <div
+                            class="mt-10 flex items-center justify-center gap-x-6"
+                        >
+                            <a
+                                href="#new-release"
+                                class="text-sm font-semibold leading-6 text-gray-900"
+                                >Learn more <span aria-hidden="true">→</span></a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+                    aria-hidden="true"
+                >
+                    <div
+                        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#2B79FD] to-[#A955E0] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+                        style="
+                            clip-path: polygon(
+                                74.1% 44.1%,
+                                100% 61.6%,
+                                97.5% 26.9%,
+                                85.5% 0.1%,
+                                80.7% 2%,
+                                72.5% 32.5%,
+                                60.2% 62.4%,
+                                52.4% 68.1%,
+                                47.5% 58.3%,
+                                45.2% 34.5%,
+                                27.5% 76.7%,
+                                0.1% 64.9%,
+                                17.9% 100%,
+                                27.6% 76.8%,
+                                76.1% 97.7%,
+                                74.1% 44.1%
+                            );
+                        "
+                    ></div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            id="new-release"
+            class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
+        >
+            <div class="absolute inset-0 -z-10 overflow-hidden">
+                <svg
+                    class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+                    aria-hidden="true"
+                >
+                    <defs>
+                        <pattern
+                            id="e813992c-7d03-4cc4-a2bd-151760b470a0"
+                            width="200"
+                            height="200"
+                            x="50%"
+                            y="-1"
+                            patternUnits="userSpaceOnUse"
+                        >
+                            <path d="M100 200V.5M.5 .5H200" fill="none" />
+                        </pattern>
+                    </defs>
+                    <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
+                        <path
+                            d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
+                            stroke-width="0"
+                        />
+                    </svg>
+                    <rect
+                        width="100%"
+                        height="100%"
+                        stroke-width="0"
+                        fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
+                    />
+                </svg>
+            </div>
+            <div
+                class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10"
+            >
+                <div
+                    class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8"
+                >
+                    <div class="lg:pr-4">
+                        <div class="lg:max-w-lg">
+                            <p
+                                class="text-base font-semibold leading-7 text-indigo-600"
+                            >
+                                New Release!
+                            </p>
+                            <h1
+                                class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+                            >
+                                MicWaves
+                            </h1>
+                            <p class="mt-6 text-xl leading-8 text-gray-700">
+                                Hear yourself in real time with Bluetooth
+                                headphones. Perfect for singers, actors, and
+                                anyone who wants to improve their speaking
+                                voice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
+                >
+                    <img
+                        class="w-[48rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                        src="./images/micwaves.png"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8"
+                >
+                    <div class="lg:pr-4">
+                        <div
+                            class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg"
+                        >
+                            <ul
+                                role="list"
+                                class="mt-8 space-y-8 text-gray-600"
+                            >
+                                <li class="flex gap-x-3">
+                                    <span
+                                        ><strong
+                                            class="font-semibold text-gray-900"
+                                            >Hear yourself in real-time</strong
+                                        >
+                                        Practice speaking, singing, or acting
+                                        with instant audio feedback through
+                                        Bluetooth headphones.</span
+                                    >
+                                </li>
+                                <li class="flex gap-x-3">
+                                    <span
+                                        ><strong
+                                            class="font-semibold text-gray-900"
+                                            >Refine your pronunciation</strong
+                                        >
+                                        Identify and correct pronunciation
+                                        errors to master the perfect vocal
+                                        delivery.</span
+                                    >
+                                </li>
+                                <li class="flex gap-x-3">
+                                    <span
+                                        ><strong
+                                            class="font-semibold text-gray-900"
+                                            >Project your voice with
+                                            confidence</strong
+                                        >
+                                        Learn proper voice projection techniques
+                                        to be heard clearly and
+                                        effectively.</span
+                                    >
+                                </li>
+                                <li class="flex gap-x-3">
+                                    <span
+                                        ><strong
+                                            class="font-semibold text-gray-900"
+                                            >Easy to use, for everyone</strong
+                                        >
+                                        No singing or acting experience
+                                        required, suitable for all skill
+                                        levels.</span
+                                    >
+                                </li>
+                            </ul>
+                            <p class="mt-6 text-xl leading-8 text-gray-700">
+                                <a
+                                    href="https://apps.apple.com/us/developer/%E5%BF%97%E6%98%8E-%E9%BB%84/id850391620"
+                                    class="mt-12 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    >Get this App</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
+        >
+            <div
+                class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10"
+            >
+                <div
+                    class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8"
+                >
+                    <div class="lg:pr-4">
+                        <div class="lg:max-w-lg">
+                            <p
+                                class="text-base font-semibold leading-7 text-indigo-600"
+                            >
+                                Jungle Series
+                            </p>
+                            <h1
+                                class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+                            >
+                                Jungle Sounds
+                            </h1>
+                            <p class="mt-6 text-xl leading-8 text-gray-700">
+                                Meet 48 species of jungle animals, listen to
+                                their calls and understand their
+                                characteristics. Get your own Jungle Explorer
+                                badge by completing the jungle game challenge.
+                                Let's start your jungle journey together!
+                            </p>
+                            <p class="mt-6 text-xl leading-8 text-gray-700">
+                                <a
+                                    href="https://apps.apple.com/us/developer/%E5%BF%97%E6%98%8E-%E9%BB%84/id850391620"
+                                    class="mt-12 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    >Get this App</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
+                >
+                    <img
+                        class="w-[48rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                        src="images/jungle-sound.jpg"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+        <div
+            class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
+        >
+            <div class="absolute inset-0 -z-10 overflow-hidden">
+                <svg
+                    class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+                    aria-hidden="true"
+                >
+                    <defs>
+                        <pattern
+                            id="e813992c-7d03-4cc4-a2bd-151760b470a0"
+                            width="200"
+                            height="200"
+                            x="50%"
+                            y="-1"
+                            patternUnits="userSpaceOnUse"
+                        >
+                            <path d="M100 200V.5M.5 .5H200" fill="none" />
+                        </pattern>
+                    </defs>
+                    <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
+                        <path
+                            d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
+                            stroke-width="0"
+                        />
+                    </svg>
+                    <rect
+                        width="100%"
+                        height="100%"
+                        stroke-width="0"
+                        fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
+                    />
+                </svg>
+            </div>
+            <div
+                class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10"
+            >
+                <div
+                    class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8"
+                >
+                    <div class="lg:pr-4">
+                        <div class="lg:max-w-lg">
+                            <p
+                                class="text-base font-semibold leading-7 text-indigo-600"
+                            >
+                                Jungle Series
+                            </p>
+                            <h1
+                                class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+                            >
+                                Jungle ABC
+                            </h1>
+                            <p class="mt-6 text-xl leading-8 text-gray-700">
+                                A simple and cute alphabet learning app, it
+                                contains pure American and British
+                                pronunciations. Tap on the blocks to read the
+                                letters aloud, and then click to play animal
+                                words. It's as simple as that, very suitable for
+                                your child.
+                            </p>
+                            <p class="mt-6 text-xl leading-8 text-gray-700">
+                                <a
+                                    href="https://apps.apple.com/us/developer/%E5%BF%97%E6%98%8E-%E9%BB%84/id850391620"
+                                    class="mt-12 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    >Get this App</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
+                >
+                    <img
+                        class="w-[48rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                        src="images/jungle-abc.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0"
+        >
+            <div
+                class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10"
+            >
+                <div
+                    class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8"
+                >
+                    <div class="lg:pr-4">
+                        <div class="lg:max-w-lg">
+                            <p
+                                class="text-base font-semibold leading-7 text-indigo-600"
+                            >
+                                Chinese
+                            </p>
+                            <h1
+                                class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+                            >
+                                Panda Poetry熊猫诗词
+                            </h1>
+                            <p class="mt-6 text-xl leading-8 text-gray-700">
+                                熊猫诗词是一款寓教于乐的手机app，它可以帮助幼儿认识和欣赏中国诗词，让孩子们在国风背景、AI朗诵和互动游戏中感受诗词的魅力，培养文化素养和审美能力。
+                            </p>
+                            <p
+                                class="mt-6 max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg"
+                            >
+                                Panda Poetry is an educational and entertaining
+                                mobile app that helps young children learn and
+                                appreciate Chinese poetry. Through traditional
+                                Chinese art backgrounds, AI recitation, and
+                                interactive games, children can experience the
+                                charm of poetry and cultivate their cultural
+                                literacy and aesthetic ability.
+                            </p>
+                            <ul
+                                role="list"
+                                class="mt-8 space-y-8 text-gray-600"
+                            >
+                                <li class="flex gap-x-3">
+                                    <span
+                                        ><strong
+                                            class="font-semibold text-gray-900"
+                                            >Traditional Chinese cultural
+                                            elements.</strong
+                                        >Infused with traditional Chinese
+                                        cultural elements like landscape
+                                        paintings, guqin music, and classic
+                                        literature, the app creates an
+                                        aesthetically pleasing learning
+                                        environment for children.</span
+                                    >
+                                </li>
+                                <li class="flex gap-x-3">
+                                    <span
+                                        ><strong
+                                            class="font-semibold text-gray-900"
+                                            >AI-powered recitation.</strong
+                                        >Leveraging AI technology, the app
+                                        provides standard pronunciation and
+                                        emotional expression for each poem,
+                                        helping children appreciate its rhythm
+                                        and artistic conception.</span
+                                    >
+                                </li>
+                                <li class="flex gap-x-3">
+                                    <span
+                                        ><strong
+                                            class="font-semibold text-gray-900"
+                                            >Interactive learning games.</strong
+                                        >Offering a variety of engaging
+                                        interactive games, the app encourages
+                                        playful learning, enhancing children's
+                                        learning interest and outcomes.</span
+                                    >
+                                </li>
+                            </ul>
+                            <p class="mt-6 text-xl leading-8 text-gray-700">
+                                <a
+                                    href="https://apps.apple.com/us/developer/%E5%BF%97%E6%98%8E-%E9%BB%84/id850391620"
+                                    class="mt-12 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    >Get this App</a
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
+                >
+                    <img
+                        class="w-[48rem] max-w-none rounded-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+                        src="images/panda-poem-pic.png"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+        <footer
+            class="mx-auto mt-32 w-full max-w-container px-4 sm:px-6 lg:px-8"
+        >
+            <div class="border-t border-slate-900/5 py-10">
+                <img
+                    class="mx-auto h-5 w-auto text-slate-900"
+                    src="./images/bingoo-grey.png"
+                    alt=""
+                />
+                <p class="mt-5 text-center text-sm leading-6 text-slate-500">
+                    &copy;
+                    <!-- -->2024<!-- -->
+                    BingooKids.com. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
